@@ -17,7 +17,7 @@ const InfoCard = ({ color, caption, number }) => {
 
 const styles = StyleSheet.create({
   container: {
-    borderWidth: 1,
+    borderWidth: StyleSheet.hairlineWidth,
     borderRadius: 5,
     padding: 10,
     alignItems: "center",
